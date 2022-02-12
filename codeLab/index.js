@@ -1,7 +1,5 @@
 const express = require('express')
 const { use } = require('express/lib/application')
-const req = require('express/lib/request')
-const res = require('express/lib/response')
 const fs = require('fs')
 app = express()
 app.use(express.static('./static'))
